@@ -39,8 +39,7 @@ The model is a neural network with the following architecture:
 - **Hidden Layers**: [403, 287]
 - **Output Layer**: 5 classes
 - **Activation Function**: ReLU
-- **Dropout Rate**: 0.4
-- **Batch Normalization**: Enabled
+
 
 ## SHAP Analysis
 The SHAP analysis provides both global and local interpretability of the model. The following plots are generated:
