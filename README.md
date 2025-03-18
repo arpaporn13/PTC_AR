@@ -48,9 +48,6 @@ The SHAP analysis provides both global and local interpretability of the model. 
 - **Force Plot**: Illustrates the impact of each feature on a single prediction
 - **Waterfall Plot**: Shows the contribution of each feature to a specific prediction
 
-## License
-This project is licensed under the **MIT License**. See the LICENSE file for more details.
-
 ## Acknowledgements
 This project utilizes the following libraries:
 - **PyTorch** - For building and training the neural network
