@@ -29,7 +29,7 @@ class NeuralNetwork(nn.Module):
         return self.model(x)
 
 
-data = pd.read_csv(r"C:\Users\apapo\physiological_signal\pythonProject\.venv\PTC_for_AR\Data\data_PCT_AR.csv").dropna()
+data = pd.read_csv("data_PCT_AR.csv").dropna()
 features = data[['HF', 'LF', 'LFHF', 'SCR', 'SCL','SKT', 'BMI', 'AR']]
 labels = data['Comfort_Level']
 
