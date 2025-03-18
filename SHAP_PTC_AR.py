@@ -44,7 +44,7 @@ model = NeuralNetwork(input_size, hidden_layers, output_size, dropout_rate, acti
 model.load_state_dict(torch.load("PCT_EDAandHRV.pth"))
 model.eval()
 
-file_path = r"C:\Users\apapo\physiological_signal\pythonProject\.venv\PTC_for_AR\Data\data_PCT_AR.csv"
+file_path = "data_PCT_AR.csv"
 df = pd.read_csv(file_path).dropna()
 
 features = ['HF', 'LF', 'LFHF', 'SCR', 'SCL','SKT', 'BMI', 'AR']
