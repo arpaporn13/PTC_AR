@@ -31,7 +31,7 @@ The dataset is located in the project directory and is named `data_PCT_AR.csv`. 
   - `1`: Allergic rhinitis patient
 - Comfort:  The target variable representing the comfort level, which is the output the model aims to predict.
 
-# Neural Network for Comfort Level Prediction
+# Deep Learning for Comfort Level Prediction
 
 ## Model Architecture
 The model is a neural network with the following architecture:
