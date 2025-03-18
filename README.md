@@ -19,7 +19,7 @@ This project aims to predict comfort levels using physiological signals and SHAP
 - shap
 
 ## Dataset
-The dataset is located in the project directory and is named data_PCT_AR.csv. It contains the following features:
+The dataset is located in the project directory and is named `data_PCT_AR.csv`. It contains the following features:
 - HF: High Frequency component of heart rate variability.
 - LF: Low Frequency component of heart rate variability.
 - SCR: Skin Conductance Response.
